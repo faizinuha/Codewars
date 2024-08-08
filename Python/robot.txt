@@ -1,0 +1,20 @@
+Pengeluaran Kas
+Nama Barang: jeruk
+Jumlah Barang: 5
+Harga Barang: 5000.0
+Total Pengeluaran: 25000.0
+----------------------------------------
+Nama Barang: p
+Jumlah Barang: 50
+Harga Barang: 6.0
+Total Pengeluaran: 300.0
+----------------------------------------
+Nama Barang: ok
+Jumlah Barang: 5
+Harga Barang: 79000.0
+Total Pengeluaran: 395000.0
+----------------------------------------
+Tanggal: 2024-07-30 14:42:21
+Total Pengeluaran: 420300.0
+Total Kas: 79700.0
+----------------------------------------
