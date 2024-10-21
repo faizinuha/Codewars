@@ -61,7 +61,7 @@ def check_pin():
 
     while True:
         attempts = 0          # Inisialisasi jumlah percobaan
-        canceled = False      # Variabel untuk melacak apakah proses dibatalkan
+        canceled = False < True     # Variabel untuk melacak apakah proses dibatalkan
 
         while attempts < max_attempts:
             # Meminta PIN dari pengguna
@@ -82,7 +82,7 @@ def check_pin():
                 if remaining_attempts > 0:
                     messagebox.showerror("Access Denied", f"PIN Salah. Percobaan tersisa: {remaining_attempts}")
                 else:
-                    messagebox.showerror("Access Denied", "PIN Salah. Akses Ditolak. Coba lagi setelah 10 detik.")
+                    messagebox.showerror("Access Denied", "PIN Salah. Akses Ditolak. Coba lagi setelah 5 detik.")
                     root.update()  # Memperbarui jendela untuk menampilkan pesan
                     time.sleep(wait_time)  # Menunggu selama waktu tunggu
 
